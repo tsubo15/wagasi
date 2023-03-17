@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>和菓子店</title>
+        <meta charset="uft-8">
+        <meta name="description" content=
+        "日常に和菓子のある生活を。さむらい堂は100年以上の歴史をもつ老舗の和菓子屋です。
+        老舗だからといって伝統にとらわれすぎず、今を生きる人々に寄り添う和菓子を提供しています。">
+        <meta name="viewport" content="wigth=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Kosugi&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <!-- pc用　ナビ・ロゴ -->
+            <div class="nav-pc">
+                <div>
+                    <a class="logo-pc" href="index.html"><img src="images/logo3.png" alt="logo"></a>
+                </div>
+                <nav>
+                    <a class="nav-pc-a" href="index.html">HOME</a>
+                    <a class="nav-pc-a" href="index.html#">店舗紹介</a>
+                    <a class="nav-pc-a" href="index.html#">商品紹介</a>
+                    <a class="nav-pc-a" href="index.html#">アクセス</a>
+                    <a class="nav-pc-a" href="index.html#">お問い合わせ</a>
+                </nav>
+                <div class="header-sns">
+                    <a href="https://twitter.com/?logout=1656888889138"><img src="images/button-twitter.png" alt="twitterのリンク"></a>
+                    <a href="https://ja-jp.facebook.com/"><img src="images/button-facebook.png" alt="facebookのリンク"></a>
+                    <a href="https://www.youtube.com/"><img src="images/button-youtube.png" alt="youtubeのリンク"></a>
+                </div>
+            </div>
+            <!-- スマホ用　ナビ・ロゴ -->
+            <img class="menu-sp" src="images/sp-botton.png" alt="ナビゲーションメニューを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+            <nav id="nav-sp">
+                <img class="close" src="images/back-botton.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                <a class="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo2.png" alt="トップページに戻る"></a>
+                <a class="menu" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">HOME</a>
+                <a class="menu" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">店舗紹介</a>
+                <a class="menu" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">商品紹介</a>
+                <a class="menu" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">アクセス</a>
+                <a class="menu" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">お問い合わせ</a>
+                <div class="sns-sp">
+                    <a href="https://twitter.com/?logout=1656888889138"><img src="images/button-facebook.png" alt="Facebookのリンク"></a>
+                    <a href="https://ja-jp.facebook.com/"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
+                    <a href="https://www.youtube.com/"><img src="images/button-youtube.png" alt="YouTubeのリンク"></a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- ファーストビュー -->
+            <a class="logo-sp-first"><img src="images/logo3.png" alt="トップページへ戻る"></a>
+            <!-- キャッチコピー -->
+            <div class="catchcopy-div">
+                <div class="top-image">
+                    <img src="images/main_top.jpg" alt="午後のティータイムは緑茶と和菓子">
+                </div>
+                <!-- <img class="catchcopy" src="images/catch_copy.png" alt="午後のティータイムは緑茶と和菓子"> -->
+            </div>
+            <!-- おしらせ -->
+            <div class="info">
+                <h2>おしらせ</h2>
+                <!-- 新着の記事　ここから -->
+                <div class="info-div">
+                    <dt class="info-dt-new info-dt"><span>キャンペーン</span><time>7月15日</time></dt>
+                    <dd><a class="info-a-new" href="#">【クーポン】かき氷の200円引きクーポンあり！</a></dd>
+                    <br>
+
+                    <dt class="info-dt"><span>新 　　作</span><time>7月6日</time></dt>
+                    <dd><a class="info-a" href="#">抹茶プリンパフェ、はじめました。</a></dd>
+                    <br>
+        
+                    <dt class="info-dt"><span>キャンペーン</span><time>7月4日</time></dt>
+                    <dd><a class="info-a" href="#">【お中元】送料無料は7月8日まで！まだ間に合う！</a></dd>
+                    <br>
+        
+                    <dt class="info-dt"><span>重 　　要</span><time>7月1日</time></dt>
+                    <dd><a class="info-a" href="#">定休日のお知らせ</a></dd>
+                    <br>
+        
+                    <dt class="info-dt"><span>新 　　作</span><time>6月3日</time></dt>
+                    <dd><a class="info-a" href="#">【お取り寄せあり】あんことバターの最中</a></dd>
+                    <br>        
+
+                    <dt class="info-dt"><span>重 　　要</span><time>6月1日</time></dt>
+                    <dd><a class="info-a" href="#">定休日のお知らせ</a></dd>
+                    <br>        
+
+                </div>
+                <!-- 新着の記事作成　ここまで -->
+            </div>
+            <!-- さむらい堂のこだわり -->
+            <div class="kodawari">
+                <h2>さむらい堂のこだわり</h2>
+                <div class="kodawari-flex">
+                    <div class="kodawari-div1">
+                        <h3>創業は、文久二年</h3>
+                        <!-- PC用文言 -->
+                        <p class="kodawari-p-pc">
+                            時代が新たな文化を受け入れつつある中、小さな茶屋として店を構えた、さむらい堂。<br>
+                            　　　時代にとらわれない甘味を提供してきたことで、今日まで愛される和菓子屋となりました。<br>
+                            <br>
+                            　　伝統的な和菓子もありながら、<br>
+                            　　　　　茶屋であった当時の想いも受け継ぎ、<br>
+                            　　　　　　　　日常のティータイムを彩るお菓子を緑茶とともに提供しています。
+                        </p>
+                        <!-- スマホ用文言　改行位置・空白違う -->
+                        <p class="kodawari-p-sp">
+                            時代が新たな文化を受け入れつつある中、<br>
+                            　　小さな茶屋として店を構えた、さむらい堂。<br>
+                            <br>
+                            　時代にとらわれない甘味を提供してきたことで、<br>
+                            　　　今日まで愛される和菓子屋となりました。<br>
+                            <br>
+                            <br>
+                            伝統的な和菓子もありながら、<br>
+                            　茶屋であった当時の想いも受け継ぎ、<br>
+                            <br>
+                            　　　日常のティータイムを彩るお菓子を<br>
+                            　　　　　　　緑茶とともに提供しています。
+                        </p>
+                    </div>
+                    <img class="kodawari-img" src="images/AdobeStock_307799830_shop.jpg" alt="店舗の外観">
+                </div>
+            </div>
+            <!-- 商品紹介 -->
+            <div class="product">
+                <h2>商品紹介</h2>
+                <div class="product-flex">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/AdobeStock_373223746.jpeg">
+                                <p class="puroduct-new">抹茶プリンパフェ</p>
+                                <span class="product-span1">480円</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/AdobeStock_373223746.jpeg">
+                                <p>抹茶プリンパフェ</p>
+                                <span>480円</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/AdobeStock_373223746.jpeg">
+                                <p>抹茶プリンパフェ</p>
+                                <span>480円</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/AdobeStock_373223746.jpeg">
+                                <p>抹茶プリンパフェ</p>
+                                <span>480円</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/AdobeStock_373223746.jpeg">
+                                <p>抹茶プリンパフェ</p>
+                                <span>480円</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/AdobeStock_373223746.jpeg">
+                                <p>抹茶プリンパフェ</p>
+                                <span>480円</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="motto-botton">
+                    <a href="#"><h4>もっと見る</h4></a>
+                </div>
+            </div>
+            <!-- お問い合わせ -->
+            <div class="contact">
+                <h2>お問い合わせ</h2>
+                <form>
+                    <div>
+                        <div class="contact-heading">
+                            <label class="contact-label">お名前<span class="contact-span">必須</span></label>
+                        </div>
+                        <div class="contact-form">
+                            <input class="contact-textbox" type="text" name="name" placeholder="例）山田　太郎">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="contact-heading">
+                            <label class="contact-label">フリガナ<span class="contact-span">必須</span></label>
+                        </div>
+                        <div class="contact-form">
+                            <input class="contact-textbox" type="text" name="furigana" placeholder="例）ヤマダ　タロウ">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="contact-heading">
+                            <label class="contact-label">メールアドレス<span class="contact-span">必須</span></label>
+                        </div>
+                        <div class="contact-form">
+                            <input class="contact-textbox" type="text" name="e-mail" placeholder="例）aaa@example.com">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="contact-heading-textarea">
+                            <label class="contact-label">お問い合わせ内容<span class="contact-span">必須</span></label>
+                        </div>
+                        <div>
+                            <textarea class="contact-textarea" name="message" placeholder="入力してください"></textarea>
+                        </div>
+                    </div>
+                    <div class="submit-div">
+                        <input class="submit-botton" type="image" value="submit" src="images/submit-botton.png" alt="送信する">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-flex">
+                <div>
+                    <img class="footer-logo" src="images/logo3.png" alt="logo">
+                </div>
+                <div class="footer-div">
+                    <a class="footer-a" href="index.html">HOME</a>
+                    <a class="footer-a" href="index.html#shop">店舗紹介</a>
+                    <a class="footer-a" href="index.html#product">商品紹介</a>
+                    <a class="footer-a" href="index.html#access">アクセス</a>
+                    <a class="footer-a" href="index.html#contact">お問い合わせ</a>
+                </div>
+            </div>
+            <div class="footer-sns">
+                <a href="https://twitter.com/?logout=1656888889138"><img src="images/button-twitter.png" alt="twitterのリンク"></a>
+                <a href="https://ja-jp.facebook.com/"><img src="images/button-facebook.png" alt="facebookのリンク"></a>
+                <a href="https://www.youtube.com/"><img src="images/button-youtube.png" alt="youtubeのリンク"></a>
+                <span class="copyright">&copy;わがし屋 All Rights Reserved.</span>
+            </div>
+        </footer>
+    </body>
+</html>
